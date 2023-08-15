@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Website using HTML, CSS, & JavaScript</title>
+    <!-- FONTAWESOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- Bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"> -->
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>FEMHACKS</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    
+    <!-- ABOUT SECTION (ACHIEVEMENTS)-->
+   
+    <section class="about__achievements">
+        <!-- <h2>About Us</h2> -->
+        <div class="container about__achievements-container">
+            <div class="about__achievements__left">
+                <img src="./images/about.svg">
+            </div>
+            <div class="about__achievements__right">
+                <h1>Our Achievements</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque eligendi placeat et totam eum non consequuntur earum ipsa natus dolor. Earum saepe expedita eligendi quas ducimus natus reiciendis, cupiditate ex repellendus. Fuga enim voluptate ullam atque sunt similique illum quas esse magnam, at facilis repellendus quo! Tenetur amet dolores est.</p>
+                <div class="about__achievements__cards">
+                    <div class="about__achievement__card">
+                        <span class="achievement__icon">
+                            <i class="fa-solid fa-video"></i>
+                        </span>
+                        <h3>450+</h3>
+                        <p>Courses</p>
+                    </div>
+                    <div class="about__achievement__card">
+                        <span class="achievement__icon">
+                            <i class="fa-solid fa-users"></i>
+                        </span>
+                        <h3>79,000+</h3>
+                        <p>Students</p>
+                    </div>
+                    <div class="about__achievement__card">
+                        <span class="achievement__icon">
+                            <i class="fa-solid fa-award"></i>
+                        </span>
+                        <h3>26+</h3>
+                        <p>Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION (TEAM)-->
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="container team__container">
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/profile-1.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Dami Clinton</h4>
+                    <p>UI/UX Tutor</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/profile-10.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Ope Ajayi</h4>
+                    <p>Frontend Instructor</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/profile-12.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Peter Okoye</h4>
+                    <p>Project Manager</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/avatar5.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>John Richard</h4>
+                    <p>Backend Instructor</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/avatar4.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Yemi Oshoba</h4>
+                    <p>Operations Maanager</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/avatar3.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Gloria Johnson</h4>
+                    <p>Head Of Logistics</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/avatar2.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Wisdom Taylor</h4>
+                    <p>Python Engineer</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+            <article class="team__member">
+                <div class="team__member-image">
+                    <img src="./images/avatar1.jpg">
+                </div>
+                <div class="team__member-info">
+                    <h4>Daniel Udoh</h4>
+                    <p>Javascript Developer</p>
+                </div>
+                <div class="team__member-socials">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+ <footer>
+    <div class="container footer__container">
+        <div class="footer__1">
+            <a href="index.html"><h4>FEMHACKS</h4></a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium error, iste odio distinctio impedit culpa.</p>
+        </div>
+        <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer__3">
+            <h4>Privacy</h4>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Refund Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer__4">
+            <h4>Contact</h4>
+            <div>
+                <p>+23470567654</p>
+                <p>info@femhacks.com</p>
+            </div>
+            <ul class="footer__socials">
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__copyright">
+       <small>All rights reserved &copy; <a href="#"><a href="#">FEMHACKS</a> 2023.</a></small> 
+    </div>
+</footer>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+<!-- <script>
+    
+</script> -->
+</body>
+</html
