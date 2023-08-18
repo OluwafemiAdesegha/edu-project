@@ -37,7 +37,7 @@
 .about__achievements-container{
     display: grid;
     grid-template-columns: 40% 60%;
-    gap: 5rem;
+    gap: 2rem;
 
 }
 
@@ -166,6 +166,7 @@
 
     .about__achievements-container{
         grid-template-columns: 1fr;
+        gap: 4rem;
     }
 
     .about__achievements__left img{
@@ -192,7 +193,7 @@
 /* MEDIA QUERY (PHONE) */
 @media screen and (max-width: 600px){
     .about__achievements__right h1{
-        text-align: left;
+        text-align: center;
     }
 
     .about__achievements__cards{
@@ -210,6 +211,6 @@
     }
 
     .team__member p{
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 }

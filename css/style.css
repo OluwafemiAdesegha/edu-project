@@ -173,6 +173,7 @@ header{
 .categories{
     background: var(--color-bg1);
     height: 32rem;
+    margin-bottom: 10rem;
 }
 
 .categories h1{
@@ -395,7 +396,7 @@ footer ul li a:hover{
 
 .footer__copyright{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding: 1.2rem 0;
     border-top: 0.1rem solid var(--color-bg2);
 }
@@ -427,7 +428,7 @@ footer ul li a:hover{
 
    .nav__menu{
     position: fixed;
-    top: 5rem;
+    top: 6rem;
     right: 5%;
     width: 18rem;
     height: fit-content;
@@ -511,10 +512,10 @@ footer ul li a:hover{
     padding: 1.5rem;
    }
 
-   .testimonial__container{
+   /* .testimonial__container{
     overflow: hidden;
     grid-template-columns: 1fr;
-   }
+   } */
 
    /* TESTIMONIALS */
    .testimonials__container{
@@ -525,7 +526,7 @@ footer ul li a:hover{
 
    .testimonial{
     border-radius: 2rem;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
    }
 
@@ -536,6 +537,8 @@ footer ul li a:hover{
    }
 }
 
+
+/* MEDIA QUERIES [PHONES] */
 @media screen and (max-width: 600px){
     .container{
         width: var(--container-width-sm);
@@ -557,6 +560,7 @@ footer ul li a:hover{
 
     .header__conatiner{
         grid-template-columns: 1fr;
+        /* gap: 2rem; */
         text-align: center;
         margin: 1rem auto;
     }
@@ -579,7 +583,7 @@ footer ul li a:hover{
     /* COURSES */
     .courses__container{
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 2rem;
     }
 
     /* TESTIMONIALS */
