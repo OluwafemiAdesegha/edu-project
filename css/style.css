@@ -566,6 +566,9 @@ footer ul li a:hover{
     }
 
     /* CATEGORIES */
+    .categories{
+        margin-bottom: 0;
+    }
     .categories__right{
         grid-template-columns: 1fr 1fr;
     }
